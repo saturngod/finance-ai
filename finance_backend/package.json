@@ -1,0 +1,24 @@
+{
+  "name": "financeAI",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "drizzle-orm": "^0.39.2",
+    "drizzle-typebox": "^0.3.0",
+    "elysia": "latest",
+    "mysql2": "^3.12.0",
+    "ollama": "^0.5.12"
+  },
+  "override": {
+    "@sinclair/typebox": "^0.34.15"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.30.4"
+  },
+  "module": "src/index.js"
+}
